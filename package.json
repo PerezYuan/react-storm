@@ -1,0 +1,27 @@
+{
+  "name": "react-storm",
+  "version": "0.0.1",
+  "description": "storm is coming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerezYuan/react-storm.git"
+  },
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "author": "perezyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PerezYuan/react-storm/issues"
+  },
+  "homepage": "https://github.com/PerezYuan/react-storm#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
