@@ -1,15 +1,16 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import fullName from './fullName';
 
 class HelloReact extends React.Component {
     render() {
         return(
-            <div>Hello React!!!</div>
+            <div>{ fullName }</div>
         );
     }
 }
 
-render(<HelloReact />, document.getElementById("app"));
+ReactDOM.render(<HelloReact />, document.getElementById("app"));
 
 // if (module.hot) {
 //     module.hot.accept();
