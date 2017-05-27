@@ -1,24 +1,22 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import fullName from './fullName';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import FullName from './FullName';
 
-// class HelloReact extends React.Component {
-//     render() {
-//         return(
-//             <div>{ fullName }</div>
-//         );
-//     }
-// }
+const user = {
+  firstName: 'Perez',
+  lastName: 'Yuan'
+};
 
-// ReactDOM.render(<HelloReact />, document.getElementById("app"));
+class HelloReact extends React.Component {
+    render() {
+        return(
+            <div>Hello, <FullName user={ user }/></div>
+        );
+    }
+}
+
+ReactDOM.render(<HelloReact />, document.getElementById("app"));
 
 // if (module.hot) {
 //     module.hot.accept();
 // }
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import FullName from './FullName';
-import App from './App';
-
-ReactDOM.render(<FullName />, document.getElementById('app'));
